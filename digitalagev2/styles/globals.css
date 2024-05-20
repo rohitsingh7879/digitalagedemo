@@ -1,0 +1,32 @@
+:root {
+  --blackcolor: #08090D;
+  --orangecolor: #FD6F00;
+}
+
+.form-control:focus {
+  border-color: #212221 !important;
+  box-shadow: 0 0 0 0.2rem rgba(252, 165, 4, 0.25) !important;
+}
+
+.form-select:focus{
+  border-color: #212221 !important;
+  box-shadow: 0 0 0 0.2rem rgba(252, 165, 4, 0.25) !important;
+}
+
+.form-check-input:checked {
+  background-color: #FD6F00 !important;
+  border-color: #c6d067 !important;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #496989;
+  border-radius: 10px;
+  border: 1px solid #496989;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}

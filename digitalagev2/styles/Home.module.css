@@ -1,0 +1,22 @@
+@media only screen and (min-width: 992px) {
+  .serviceproviderimg {
+    margin-top: 120px;
+  }
+  .margincontact{
+    margin-bottom: 200px !important;
+  }
+
+  .contactcontact{
+    margin-top: 200px !important;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .contactimg {
+    display: none;
+  }
+
+  .margincontact{
+    margin-bottom: 100px !important;
+  }
+}

@@ -1,0 +1,7 @@
+.sidenav {
+    padding: 10px;
+}
+.sidenav:hover{
+    background-color: #F5F5F5;
+    cursor: pointer;
+}

@@ -1,0 +1,119 @@
+/* CSS */
+.orangebutton {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: var(--orangecolor);
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  /* font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif; */
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.orangebutton:hover,
+.orangebutton:focus {
+  background-color: var(--orangecolor);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.orangebutton:hover {
+  transform: translateY(-1px);
+}
+
+.orangebutton:active {
+  background-color: var(--orangecolor);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+.textorange {
+  color: var(--orangecolor);
+}
+
+@media only screen and (min-width: 767px) {
+  .herosectionheadline {
+    margin-top: 110px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .herosectionheadline {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+
+/* CSS */
+.orangebutton2 {
+  align-items: center;
+  background-clip: padding-box;
+  /* background-color: var(--orangecolor); */
+  /* border: 1px solid transparent; */
+  border: 1px solid orange;
+
+  border-radius: 0.25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  /* color: #fff; */
+  color: black;
+  cursor: pointer;
+  display: inline-flex;
+  /* font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif; */
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.orangebutton2:hover,
+.orangebutton2:focus {
+  background-color: var(--orangecolor);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: #fff;
+}
+
+.orangebutton2:hover {
+  transform: translateY(-1px);
+  color: #fff;
+}
+
+.orangebutton2:active {
+  background-color: var(--orangecolor);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+@media only screen and (min-width: 768px) {
+  .datacom{
+    top: 120
+  }
+}
